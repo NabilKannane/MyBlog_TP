@@ -1,0 +1,28 @@
+<!-- Detail d'un post -->
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title MonBlog 
+        link(rel="stylesheet", href="/css/style.css")
+    body 
+        header 
+            h1 Notre Blog
+        section 
+            a(href="/" id="BtnHome") HOME
+            
+            .card 
+                .headerCard #{title} 
+                p Auteur : #{auteur}
+                p Date de Creation :  (Coordinated Universal Time)
+                p Date de Modification:  (Coordinated Universal Time)
+                br
+                p Résume 
+                br
+                p #{resume}
+                br
+                p Details 
+                br
+                p #{contenu}

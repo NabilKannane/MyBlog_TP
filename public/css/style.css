@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: rgb(92, 178, 204);
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+section{
+    margin-top: 120px;
+}
+
+.card{
+    margin: 20px 20px;
+    padding: 20px 20px;
+    background-color: rgb(242, 242, 242);
+}
+.headerCard{
+    padding: 10px;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmd button{
+    margin: 2.5px;
+}
+
+#BtnHome{
+    text-decoration: none;
+
+    color: #fff;
+    padding: 12px;
+    background-color: rgb(26, 69, 150);
+    border: none;
+    border-radius:100px 0% 0%  100px;
+    position: fixed;
+    right: 1%;
+    top: 10%;
+}
+
+#BtnAdd{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    background-color: rgb(35, 196, 78);
+    border: none;
+    border-radius:100px 0% 0%  100px;
+    position: fixed;
+    right: 1%;
+    bottom: 10% ;
+}

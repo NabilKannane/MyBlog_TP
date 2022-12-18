@@ -1,0 +1,32 @@
+<!-- formulaire pour créer un post -->
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Edit
+        link(rel="stylesheet", href="./css/style.css")
+    body 
+        header 
+            h1 Notre Blog
+        section 
+            div(class="card")
+                form(action="/addPost/", method="post") 
+                    label(for="") Title : 
+                    input(type="text", name="Title" )
+                    br
+                    br
+                    label(for="") Auteur : 
+                    input(type="text", name="Auteur" )
+                    br
+                    br
+                    label(for="") Resume : 
+                    input(type="text", name="Resume" )
+                    br
+                    br
+                    label(for="") Content : 
+                    input(type="text", name="Content" )
+                    br
+                    br
+                    button(type="submit") Ajouter

@@ -1,0 +1,32 @@
+<!-- formulaire pour créer un post -->
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Edit
+        link(rel="stylesheet", href="./css/style.css")
+    body 
+        header 
+            h1 Notre Blog
+        section 
+            div(class="card")
+                form(action=`/editpost/${_id}`, method="post") 
+                    label(for="") Title : 
+                    input(type="text", name="Title" value=`${titre}`)
+                    br
+                    br
+                    label(for="") Auteur : 
+                    input(type="text", name="Auteur" value=`${auteur}`)
+                    br
+                    br
+                    label(for="") Resume : 
+                    input(type="text", name="Resume" value=`${resume}`)
+                    br
+                    br
+                    label(for="") Content : 
+                    input(type="text", name="Content" value=`${content}`)
+                    br
+                    br
+                    button(type="submit") Enregistrer
